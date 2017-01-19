@@ -1,0 +1,29 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: cornflowerblue;
+}
+
+table {
+  background-color:darkturquoise;
+  padding: 3px;
+  border-width: 5px;
+  border-color: cadetblue;
+  border-style: solid;
+}
+
+button {
+  background-color: cornflowerblue;
+  border-radius: 10px;
+}
+button:hover {
+  background-color:aqua
+}
+
+hr {
+  background-color: black;
+  
+}
+
+h1 {
+  
+}
