@@ -1,22 +1,26 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Georgia";
   background-color: cornflowerblue;
+  background-repeat: no-repeat;
 }
 
 table {
-  background-color:darkturquoise;
+  background-color:cornflowerblue;
   padding: 3px;
   border-width: 5px;
-  border-color: cadetblue;
+  border-color: darkgray;
   border-style: solid;
+  border-radius:30%;
 }
 
 button {
-  background-color: cornflowerblue;
+
+  font-family: inherit;
+  background-color: dodgerblue;
   border-radius: 10px;
 }
 button:hover {
-  background-color:aqua
+  background-color:deepskyblue;
 }
 
 hr {
