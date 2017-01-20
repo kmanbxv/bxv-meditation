@@ -1,26 +1,30 @@
 body {
   font-family: "Georgia";
-  background-color: cornflowerblue;
+  background-color: #c6e4ff;
   background-repeat: no-repeat;
 }
 
 table {
-  background-color:cornflowerblue;
-  padding: 3px;
+  background-color:#b7ddff;
+  
+  padding: 4px;
   border-width: 5px;
   border-color: darkgray;
   border-style: solid;
-  border-radius:30%;
+  border-radius:25%;
 }
 
 button {
-
+  height:40px;
+  
+  padding-left: 10px;
+  padding-right:10px;
   font-family: inherit;
-  background-color: dodgerblue;
+  background-color: #70bcff;
   border-radius: 10px;
 }
 button:hover {
-  background-color:deepskyblue;
+  background-color:#3bdbb5;
 }
 
 hr {
@@ -29,5 +33,5 @@ hr {
 }
 
 h1 {
-  
+  color:dodgerblue;
 }
