@@ -3,22 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Made with Thimble</title>
+  <title>Meditate</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <script src="script.js"></script>
   <h1>Welcome to Meditation Club</h1>
-  <hr>
+  <hr><br>
   <center> <!--centered table, add more buttons as needed-->
-  <table><tr><td>
-    <button onclick="pond();">
-      Pond
-    </button></td><td><button>
-    Midterms
-    </button></td></tr>
+  <table class="nav"><tr><td>
+    <a href="list.html"><button class="main">All Meditations</button></a></td>
+    <td><button onclick="play(0);" class="main">Pond</button></td>
+    <td><button onclick="play(1);" class="main">Snow</button></td>
+    <td><button onclick="play(2);" class="main">Clouds</button></td></tr>
     </table></center>
-  <p>To start relaxing, select a guided meditation, then click the play button below.</p><p id="playing"></p>
+  <p>To start relaxing, select a guided meditation, then click the play button below.</p>
+  <p id="playing"></p>
   <audio id="player" controls></audio>
 
 

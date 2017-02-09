@@ -6,6 +6,14 @@ body {
 
 table {
   background-color:#b7ddff;
+  padding: 10px;
+  border-width: 5px;
+  border-color: darkgray;
+  border-style:outset
+}
+
+table.nav {
+  background-color:#b7ddff;
   
   padding: 4px;
   border-width: 5px;
@@ -14,7 +22,7 @@ table {
   border-radius:25%;
 }
 
-button {
+button.main {
   height:40px;
   
   padding-left: 10px;
@@ -34,4 +42,9 @@ hr {
 
 h1 {
   color:dodgerblue;
+}
+
+a {
+  color:inherit;
+  text-decoration: inherit;
 }

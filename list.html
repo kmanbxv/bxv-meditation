@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>List</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <script src="script.js"></script>
+
+  <h1>All Meditations</h1>
+  <hr>
+<a href="index.html"><button class="main">
+  Back
+  </button></a>
+  <p>More coming soon!</p>
+  <center><button onclick="playRandomFile();" class="main">Random Meditation</button><br><br>
+    <table><tr>
+      <td><button onclick="play(0);" class="main">Pond</button></td>
+      <td><button onclick="play(1);" class="main">Snow</button></td>
+      <td><button onclick="play(2);" class="main">Clouds</button></td></tr>
+    </table></center>
+  
+  <p id="playing"></p>
+  <div id="player-holder" ><audio id="player" controls></audio></div>
+  
+</body>
+</html>
