@@ -1,5 +1,5 @@
 // put mp3s in array
-var meditations = ["pond","snow","clouds"];
+var meditations = ["pond","snow","clouds","earth","gratitude","healing","heart","house","ocean","sleep","stargate"];
 
 function play(file){
     document.getElementById("player").src = meditations[file]+".m4a"; // play appropriate mp3
