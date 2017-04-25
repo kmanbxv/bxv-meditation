@@ -2,7 +2,7 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.bxv-programming.taylor"
-    versionCode = 1				<!-- increment versionCode by 1 (int) each update -->
+    android-versionCode = "1" 	<!-- increment versionCode by 1 (int) each update -->
 	versionName = "1.0"			<!-- string version to be shown to users -->
     version     = "1.2.0" >		<!-- major.minor.patch updates -->
 
